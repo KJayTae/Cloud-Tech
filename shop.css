@@ -1,0 +1,108 @@
+* {
+}
+.column {
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  /* overflow: hidden; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.row {
+  background: white; 
+}
+.column{
+  display: flex;
+  align-items: center;
+}
+.options{
+  display: flex;
+  background-color: #444;
+
+}
+.namehome{
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  border: 3px;
+  border-style: solid;
+  border-color: aqua;
+}
+.bannerContainer{
+display: flex;
+width: 100%;
+height: 35%;
+background-color: chocolate;
+}
+.banner1{
+width: 60%;
+height:100%;
+background-color: blue;
+
+}
+.banner1 img{
+width: 100%;
+height: 100%;
+}
+.smallbannerContainer{
+width: 40%;
+height:100%;
+background-color: red;
+}
+.banner2{
+width: 100%;
+height: 50%;
+background-color:chartreuse
+}
+.banner2 img{
+width: 100%;
+height: 100%;
+}
+.banner3{
+width: 100%;
+height:50%;
+background-color: pink;
+}
+.banner3 img{
+width: 100%;
+height: 100%;
+}
+.productContainer {
+  display: flex;
+  background-color: white;
+  height: 50%;
+  justify-content: space-around;
+}
+
+.productContainer > div {
+  background-color: white;
+  width: 300px;
+  /* margin: 50px; */
+  text-align: center;
+  line-height: 10px;
+  font-size: 10px;
+}
+.product1 img{
+  height: 75%;
+}
+.product2 img{
+  height: 75%;
+}
+.product3 img{
+  height: 75%;
+}
+.product4 img{
+  height: 75%;
+}
+.Rong{
+  margin: 0px;
+  width: 100%;
+  height: 2.5%;
+  display: flex;
+  justify-content: center;
+}
+
+
